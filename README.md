@@ -1,5 +1,5 @@
 # IITD - Scene Text Recognition and Optical Character Recognition
-## Hindi
+## Hindi [Docker-Image](https://hub.docker.com/repository/docker/iitdnltm/str)
 - Download weights_hin.ckpt in mounted_volume/model 
 - Download the demo.zip and extract in mounted_volume/data
 - run usage_scrips/load.sh to load the docker image into a container
@@ -12,7 +12,7 @@
 ./usage_scripts scene_text hindi v1 /home/username/data/demo
 ```
 
-## English
+## English [Docker-Image](https://hub.docker.com/repository/docker/iitdnltm/str)
 - Download weights_eng.ckpt in mounted_volume/model 
 - Download the demo.zip and extract in mounted_volume/data
 - run usage_scrips/load.sh to load the docker image into a container
@@ -26,7 +26,7 @@
 ```
 
 
-## Urdu
+## Urdu [Docker-Image](https://hub.docker.com/repository/docker/iitdnltm/ocr)
 - Download weights_urdu.ckpt in mounted_volume/model 
 - Download the demo.zip and extract in mounted_volume/data
 - run usage_scrips/load.sh to load the docker image into a container
@@ -38,3 +38,6 @@
 # example`
 ./usage_scripts printed urdu v1 /home/username/data/demo
 ```
+
+
+&copy; IITD 2022
