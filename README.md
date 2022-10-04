@@ -30,7 +30,7 @@
 ```
 
 
-## Urdu - Optical Character Recognition (Line Level)
+## Urdu - Optical Character Recognition (Line level)
 ### [Docker-Image](https://hub.docker.com/repository/docker/iitdnltm/ocr)
 - Pull the docker image: `docker push iitdnltm/ocr:iitd_urdu`
 - Download weights_urdu.ckpt in mounted_volume/model 
